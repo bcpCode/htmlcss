@@ -4,21 +4,25 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
-        <title>Personal Website</title>
+        <title>bcpCode Portfolio</title>
+        <meta name="description" content="Portfolio of bcpCode showcasing projects and skills.">
+        <link rel="icon" type="image/x-icon" href="images/coding.png">
     </head>
     <body>
+        <!-- #region App Bar -->
         <div class="appbar">
             <nav>
                 <div class="logo"><img src="images/man.png" alt="LOGO"></div>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Projects</a>
-                <a href="#">Github</a>
-                <a href="#">Blogs</a>
+                <a href="#Homepage">Home</a>
+                <a href="#About">About</a>
+                <a href="#Projects">Projects</a>
+                <a href="https://github.com/bcpCode">Github</a>
+                <a href="#Blogs">Blogs</a>
             </nav>
             <div class="spacer"></div>
         </div>
-        <div class="Homepage">
+        <!-- #region Homepage -->
+        <div id="Homepage" class="Homepage">
             <div class="left_side">
                 <h1 class="header1">bcpCode</h1>
                 <h2 class="header2">SOFTWARE</h2>
@@ -27,12 +31,59 @@
             <div class="right_side">
 
                 <h2 class="header2">DEVELOPER</h2>
-                <p class="p1">I'm a US-based software developer with a passion for creating innovative solutions.</p>
+                <p class="p1">Passionate software developer crafting elegant solutions and bringing innovative ideas to life through clean, efficient code.</p>
 
             </div>
 
             
         </div>
+        <!-- #region About -->
+        <div id="About" class="About">
+            <h2 class="about-header">ABOUT ME</h2>
+            <div class="about-content"> 
+            <div class="about-text"></div>
+                <p class="p2">I am Computer Engineering student currently in my third year, with a strong foundation in Flutter, C, Dart, HTML, CSS and Python. My journey in technology is driven by curiosity and a commitment to continuous learning and growth.</p>
+
+                <p class="p2">As a student developer, I specialize in mobile application development using Flutter and Dart, alongside backend development with Python and systems programming with C. I'm constantly expanding my skill set by exploring new technologies and frameworks to stay current with industry trends.</p>
+                
+                <p class="p2">Throughout my academic journey, I've dedicated myself to creating innovative projects that showcase my technical abilities. I actively work on developing new solutions and challenge myself to build applications that solve real-world problems while developing my programming skills.</p>
+                
+                <p class="p2">I believe in the power of open-source development and contribute to the community by publishing my projects in public repositories whenever possible. This approach not only helps me share knowledge but also allows me to collaborate with other developers and receive valuable feedback on my work.</p>
+                
+                <p class="p2">When I'm not studying or coding, you can find me working on personal projects, contributing to open-source initiatives, or exploring emerging technologies. I'm always excited to take on new challenges and collaborate on innovative solutions that make a meaningful impact.</p>
+            </div>
+            
+            </div>
+        </div>
+        </div>
         
+        <!-- #region Projects -->
+         <div  id="Projects" class="Projects">
+            <h2 class="header3">PROJECTS</h2>
+            <p class="projects-p">Here are some of the projects I've worked on:</p>
+            <ul class="projects-list">
+                <li><a class="github-link" href="https://github.com/bcpCode/Balanced-Parentheses-Stack-in-c">Balanced Parenthesis</a>: A tool to check for balanced parentheses in code snippets (C programming).</li>
+                <li><a class="github-link" href="https://github.com/bcpCode/">Flight and Weather Tracker</a>: A real-time and future flight and weather tracking application with api entegration (Flutter,firebase,Auth).</li>
+                <li><a class="github-link"href="https://github.com/bcpCode/">Fitness Graph Tracker App</a>: A mobile application for tracking fitness activities with professional graphics (Flutter,firebase,Auth).</li>
+                <li><a class="github-link" href="https://github.com/bcpCode/Python_tk_ctk_sqlite">Snake Game</a>: A snake game with custom costumes and wallpapers, sound effects, and a marketplace system using SQLite, User login and register system (Python programming,SQLite,Auth,password hashing).</li>
+                <li><a class='github-link'href="https://github.com/bcpCode/htmlcss">Personal Website</a>: A personal portfolio website to showcase my projects and skills (HTML, CSS).</li>
+                <li><a class="github-link" href="https://github.com/bcpCode/">Personal Website 2</a>: A personal portfolio website with a modern design and enhanced features, advanced project viewing (Flutter).</li>
+                <li><a class="github-link" href="https://github.com/bcpCode/">Flight and Weather Tracker</a>: A word puzzle game with a rich user interface and engaging gameplay (Flutter).</li>
+                <li><a class="github-link" href="https://github.com/bcpCode/">Focus Helper</a>: A Pomodoro and to-do app to enhance productivity using the ctk library (Python programming).</li>
+                <li><a class="github-link" href="https://github.com/bcpCode/">Animal Shelter Control</a>: A management system for animal shelters using data structures including linked lists and AVL trees etc. (C programming- Academic Project).</li>
+                <li><a class="github-link" href="https://github.com/bcpCode/">Logic binary Calculator</a>: A logic binary calculator using multiplexers and decoders (Verilog-Logic-Academic project).</li>
+                <li><a class="github-link" href="https://github.com/bcpCode/">Mini Stock Market Track App</a>: A mobile application for tracking stock market data (fake data)(Python programming,Auth,SQLite).</li>
+            </ul>
+        </div>
+
     </body>
+    <div class="footer">
+        contact: <a class='mailto' href="mailto:bcpCode@example.com">bcpCode@example.com</a>
+        <!-- #region footer -->
+        <footer>
+            <div class="footer">
+                <p>&copy; 2024 bcpCode. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
 </html>
